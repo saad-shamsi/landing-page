@@ -94,8 +94,9 @@ ul{
 }
 /* Top-banner */
 .top-banner{
-    /* background-image: url('./assests/asset\ 30.png'); */
-    background-color: #e74694;
+    background-image: url(./assests/asset\ 32.png );
+    background-color:  #e74694;
+    
 }
 .banner-text{
     color: rgb(255, 255, 255);
@@ -119,4 +120,65 @@ ul{
 .nav-links ul{
     justify-content: end;
     gap: 40px;
+}
+
+/* Header section */
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+.header-left{
+    max-width: 40vw ;
+}
+.header-right h1 {
+  margin-top: 20px;
+}
+.get-started-btn{
+    margin-top: 20px;
+}
+.header-right img{
+    width: 600px;
+}
+/* companies section  */
+.companies-header{
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primary-text-color);
+}
+/* logos section */
+.logos{
+    justify-content: space-between;
+}
+.logo{
+    height: 46px;
+}
+/* features section */
+
+.featues-section{
+    padding: 80px  var(--padding-inline-section) 0 ;
+    background-image: url(./assests/asset\ 41.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.featueres-header{
+    text-align: center;
+}
+.features-heading-text{
+    margin-bottom: 20px;
+}
+.features-area{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.features-card{
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+
 }
