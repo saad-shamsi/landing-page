@@ -159,9 +159,11 @@ header{
 
 .featues-section{
     padding: 80px  var(--padding-inline-section) 0 ;
-    background-image: url(./assests/asset\ 41.png);
+    background-image: url(./assests/asset\ 34.svg);
     background-repeat: no-repeat;
     background-position: center;
+    /* background-color: #2294ed; */
+
 }
 .featueres-header{
     text-align: center;
@@ -180,5 +182,71 @@ header{
     gap: 20px;
     max-width: 30%;
     text-align: center;
+
+}
+
+/* Bg-feature-section */
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+
+
+}
+.big-feature-container{
+    gap: 30px;
+    margin-top: 50px;
+}
+.feature-img img{
+    width: 100%;
+}
+.festure-desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+.examples-header{
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.examples-area{
+    justify-content: space-between;
+    margin-block:40px ;
+}
+.examples-card{
+    width: 23%;
+    position: relative;
+    min-height: 350px;
+    background: black;
+    background:linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),  url(./assests/asset\ 37.jpeg);
+    background-size: cover;
+   
+
+}
+.examples-card:hover{
+    box-shadow: 0 0 10px #888;
+    transition: 0.2s ease-out;
+}
+.examples-card:nth-child(2){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),  url(./assests/asset\ 36.jpeg);
+   background-size: cover;
+}
+.examples-card:nth-child(3){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),  url(./assests/asset\ 38.jpeg);
+    background-size: cover;
+}
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),  url(./assests/asset\ 39.jpeg);
+  background-size: cover;
+}
+.card-text{
+ position: absolute;
+ bottom: 20px;
+ left: 20px;
+ right: 20px;
+ color: aliceblue;
+
 
 }
